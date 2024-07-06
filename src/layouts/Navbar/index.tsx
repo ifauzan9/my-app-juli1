@@ -27,6 +27,18 @@ const Navbar = () => {
           >
             About
           </li>
+          <li
+            className="text-white px-2 py-1 cursor-pointer hover:text-gray-300"
+            onClick={() => router.push("/faceRecognition")}
+          >
+            Face Recognition
+          </li>
+          <li
+            className="text-white px-2 py-1 cursor-pointer hover:text-gray-300"
+            onClick={() => router.push("/faceRecognition2")}
+          >
+            Face Recognition 2
+          </li>
         </ul>
         <div className="md:hidden flex">
           <button
@@ -58,6 +70,18 @@ const Navbar = () => {
               onClick={() => router.push("/about")}
             >
               About
+            </li>
+            <li
+              className="block text-white px-2 py-1 cursor-pointer hover:text-gray-300"
+              onClick={() => router.push("/faceRecognition")}
+            >
+              Face Recognition
+            </li>
+            <li
+              className="block text-white px-2 py-1 cursor-pointer hover:text-gray-300"
+              onClick={() => router.push("/faceRecognition2")}
+            >
+              Face Recognition 2
             </li>
           </ul>
         </div>
